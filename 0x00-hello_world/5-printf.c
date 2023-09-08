@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * 
- * Description: 'the program's description'
- * @parameter: describe the parameter
- * 
+ *
+ *Description: 'the program that run using printf'
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
