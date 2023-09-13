@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	char Task1 = '_putchar/n';
+	char ch = '_putchar';
 
-	putchar (Task1);
+	putchar (ch);
 
 	return (0);
 }
