@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include"main.h"
 /**
  * main - The program that prints putchar followed by a line
  *
