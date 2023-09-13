@@ -1,12 +1,20 @@
-#include<stdio.h>
-/**
- * main - The program that prints putchar followed by a line
- *
- * Return: Always 0.
- */
-int main() {
+#include "main.h"
 
-   char prt = '_putchar';
-     putchar(prt);
-      	return 0;
+/**
+*main - function prints text as output
+*
+*Return:return 0
+*/
+int main(void)
+{
+	char school[10] = "_putchar";
+
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(school[i]);
+	}
+	_putchar(10);
+	return (0);
 }
