@@ -4,11 +4,9 @@
  *
  * Return: Always 0.
  */
-int main(void)
-{
-	char ch = '_putchar';
+int main() {
 
-	putchar (ch);
+      	putchar("_putchar\n");
 
-	return (0);
+      	return 0;
 }
