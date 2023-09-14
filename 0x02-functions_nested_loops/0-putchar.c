@@ -1,20 +1,18 @@
 #include "main.h"
-
 /**
-*main - function prints text as output
-*
-*Return:return 0
-*/
+ * main - prints _putchar, followd by a new linees
+ * Return: Alwys 0 (Success)
+ */
 int main(void)
 {
-	char school[10] = "_putchar";
+	char dave[] = "_putchar";
 
-	int i;
+	int c;
 
-	for (i = 0; i < 8; i++)
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(school[i]);
+		_putchar(dave[c]);
 	}
-	_putchar(10);
+	_putchar('\n');
 	return (0);
 }
