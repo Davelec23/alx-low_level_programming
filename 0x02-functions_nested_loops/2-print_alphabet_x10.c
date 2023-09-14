@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet ten times in a new line - Entry point
- * Return:0
+ *print_alphabet_x10(void)-print 10x alphabet in lower case
  */
 
 void print_alphabet_x10(void)
