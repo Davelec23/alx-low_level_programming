@@ -1,1 +1,1 @@
-In these repo there will some c documents
+These Repo is about low level programming associated wth c
