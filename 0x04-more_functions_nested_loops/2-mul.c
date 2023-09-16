@@ -1,11 +1,13 @@
 #include "main.h"
 /**
- * int mul(int a, int b)-a program that multiplies 2 no.
- * Return: Always 0
+ *mul - a program that multiplies 2 no.
+ *@a: First integer
+ *@b: Second integer
+ * Return:c
  */
 int mul(int a, int b)
 {
 	int c;
-	c = a*b;
+c = a * b;
 	return (c);
 }
